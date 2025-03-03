@@ -5,12 +5,10 @@ try:
     num1 = float(input("Enter the first number: "))
     num2 = float(input("Enter the second number: "))
     
-    if num1 > num2:
-        print("The bigger number is", num1)
-    elif num2 > num1:
-        print("The bigger number is", num2)  
+    if num1 == num2:
+        print('Equal')
     else:
-        print("The numbers are equal")
+        print('Not Equal')
         
 except ValueError:
     print("Please enter a valid number")
